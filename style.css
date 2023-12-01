@@ -1,0 +1,146 @@
+.cabecalho{
+    background-color: #672F2F;
+    padding: 8px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+
+}
+.div1{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.fonte{
+    padding: 0.5em;
+    font-family: 'Fira Code', monospace;
+    font-family: 'Roboto', sans-serif;
+}
+.div2{
+    display: flex;
+    justify-content: space-around;
+    color: white; 
+    font-family: 'Fira Code', monospace;
+    font-family: 'Roboto', sans-serif;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    grid-template-rows: repeat(8,1fr);
+    max-height: 99vh;
+}
+.banner_principal{
+    grid-column: 1/10;
+    grid-row: 1;
+}
+.contato{
+    grid-row: 3;
+    grid-column: 1/3;
+    background-color: #672F2F;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.frase-contato{
+    grid-row: 3;
+    grid-column: 3/7;
+    background-color: #672F2F;
+    justify-content: space-around;
+    color: white;
+    font-size: 2vw;
+    font-family: 'Fira Code', monospace;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    padding: 0.5em;
+}
+.botoes-contato{
+    grid-row: 3;
+    grid-column: 7/10;
+    align-items: center;
+    text-align: center;
+    background-color: #672F2F;
+    font-size: 2hw;
+    display: flex;
+    justify-content: space-around;
+}
+.espaco{
+    grid-row: 4;
+    grid-column: 1/10;
+    background-color: #FFC3D9;
+    height: 40px;
+    color: #FFC3D9;
+}
+.produtos{
+    grid-row: 5;
+    grid-column: 1/10;
+    background-color: #672F2F;
+    font-size: 6vw;
+    padding: 0.5em;
+    font-family: 'Playball', cursive;
+}
+.teste{
+    grid-row: 6;
+    grid-column: 1/10; 
+    text-align: center;
+    align-items: center; 
+    justify-content: space-around;
+    background-color: #672F2F;
+    display: flex;
+}
+.imagem-cor{
+    background-color: white;
+    border-radius: 20%;
+}
+.valores{
+    grid-row: 8;
+    grid-column: 1/10; 
+    text-align: center;
+    align-items: center; 
+    justify-content: space-around;
+    background-color: #672F2F;
+    display: flex;
+    color: white;
+    font-size: 2em;
+    font-family: 'Fira Code', monospace;
+    font-family: 'Roboto', sans-serif;
+}
+.espaco2{
+    grid-row: 7;
+    grid-column: 1/10;
+    background-color: #672F2F;
+    height: 40px;
+    color: #672F2F;
+}
+.fundo-valor{
+    background-color: black;
+
+}
+.espaco3{
+    grid-row: 9;
+    grid-column: 1/10;
+    background-color: #672F2F;
+    height: 40px;
+    color: #672F2F;
+}
+.logo-final{
+    grid-row: 10;
+    grid-column: 1/4;
+    background-color: rgb(0, 0, 80);
+    align-items: center;
+    text-align: center;
+}
+.texto-final{
+    grid-row: 10;
+    grid-column: 4/10;
+    color: white;
+    background-color: rgb(0, 0, 80);
+    font-size: 2vw;
+    padding: 2em;
+}
+.texto-3{
+    text-decoration: none;
+    color: white;
+    font-family: 'Fira Code', monospace;
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+}
